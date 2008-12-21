@@ -1,0 +1,15 @@
+Remember to insert your nabaztag token and serial number 
+inside the code (line 6 and 7) before try.
+
+Nabaztag command line, usage: nabaztag.rb command [params]
+Where commands can be:
+  
+  playlist    Load a playlist from playlist.com inside your nabaztag and
+              starts playing, example: nabaztag.rb playlist 3041414155
+              You may find the playlist number inside the playlist URL.
+              
+  help        You're looking it :)
+  
+You'll need scrubyt (http://www.scrubyt.org) to run this code:
+gem install scrubyt
+
